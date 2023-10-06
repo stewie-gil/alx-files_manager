@@ -1,0 +1,8 @@
+const redisClient = require('../utils/redis');
+
+function fix(){
+console.log(redisClient.isAlive())
+}
+
+
+export default fix;
